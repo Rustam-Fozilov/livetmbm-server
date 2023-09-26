@@ -1,0 +1,537 @@
+{
+    "regions": [
+        {
+            "id": 1,
+            "name": {
+                "ruz": "Марказ",
+                "uz": "Markaz",
+                "ru": "Центр"
+            },
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Марказ Camera 001",
+                        "uz": "Markaz Camera 001",
+                        "ru": "Центр Camera 001"
+                    },
+                    "link": "https://toshkent4.tmbm.uz/",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Марказ Camera 002",
+                        "uz": "Markaz Camera 002",
+                        "ru": "Центр Camera 002"
+                    },
+                    "link": "https://toshkent2.tmbm.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Марказ Camera 003",
+                        "uz": "Markaz Camera 003",
+                        "ru": "Центр Camera 003"
+                    },
+                    "link": "https://toshkent3.tmbm.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 4,
+                    "name": {
+                        "ruz": "Марказ Camera 004",
+                        "uz": "Markaz Camera 004",
+                        "ru": "Центр Camera 004"
+                    },
+                    "link": "https://toshkent1.tmbm.uz",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": {
+                "ruz": "Андижон вилояти",
+                "uz": "Andijon viloyati",
+                "ru": "Андижанская область"
+            },
+
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Андижон Camera 001",
+                        "uz": "Andijon Camera 001",
+                        "ru": "Андижан Camera 001"
+                    },
+                    "link": "https://andijon1.dtsj.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Андижон Camera 002",
+                        "uz": "Andijon Camera 002",
+                        "ru": "Андижан Camera 002"
+                    },
+                    "link": "https://andijon2.dtsj.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Андижон Camera 003",
+                        "uz": "Andijon Camera 003",
+                        "ru": "Андижан Camera 003"
+                    },
+                    "link": "https://andijon3.dtsj.uz",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": {
+                "ruz": "Бухоро вилояти",
+                "uz": "Buxoro viloyati",
+                "ru": "Бухарская область"
+            },
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Бухоро Camera 001",
+                        "uz": "Buxoro Camera 001",
+                        "ru": "Бухара Camera 001"
+                    },
+                    "link": "https://buxoro1.tmbm.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Бухоро Camera 002",
+                        "uz": "Buxoro Camera 002",
+                        "ru": "Бухара Camera 002"
+                    },
+                    "link": "https://buxoro2.tmbm.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Бухоро Camera 003",
+                        "uz": "Buxoro Camera 003",
+                        "ru": "Бухара Camera 003"
+                    },
+                    "link": "",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": {
+                "ruz": "Фарғона вилояти",
+                "uz": "Farg'ona viloyati",
+                "ru": "Ферганская область"
+            },
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Фарғона Camera 001",
+                        "uz": "Farg'ona Camera 001",
+                        "ru": "Фергана Camera 001"
+                    },
+                    "link": "https://fargona1.dtsj.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Фарғона Camera 002",
+                        "uz": "Farg'ona Camera 002",
+                        "ru": "Фергана Camera 002"
+                    },
+                    "link": "https://fargona2.dtsj.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Фарғона Camera 003",
+                        "uz": "Farg'ona Camera 003",
+                        "ru": "Фергана Camera 003"
+                    },
+                    "link": "",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": {
+                "ruz": "Қашқадарё вилояти",
+                "uz": "Qashqadaryo viloyati",
+                "ru": "Кашкадарьинская область"
+            },
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Қашқадарё Camera 001",
+                        "uz": "Qashqadaryo Camera 001",
+                        "ru": "Кашкадарья Camera 001"
+                    },
+                    "link": "https://qashqadaryo1.dtsj.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Қашқадарё Camera 002",
+                        "uz": "Qashqadaryo Camera 002",
+                        "ru": "Кашкадарья Camera 002"
+                    },
+                    "link": "https://qashqadaryo2.dtsj.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Қашқадарё Camera 003",
+                        "uz": "Qashqadaryo Camera 003",
+                        "ru": "Кашкадарья Camera 003"
+                    },
+                    "link": "",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": {
+                "ruz": "Навоий вилояти",
+                "uz": "Navoiy viloyati",
+                "ru": "Навоийская область"
+            },
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Навоий Camera 001",
+                        "uz": "Navoiy Camera 001",
+                        "ru": "Навоий Camera 001"
+                    },
+                    "link": "https://navoiy1.dtsj.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Навоий Camera 002",
+                        "uz": "Navoiy Camera 002",
+                        "ru": "Навоий Camera 002"
+                    },
+                    "link": "",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Навоий Camera 003",
+                        "uz": "Navoiy Camera 003",
+                        "ru": "Навоий Camera 003"
+                    },
+                    "link": "",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": {
+                "ruz": "Наманган вилояти",
+                "uz": "Namangan viloyati",
+                "ru": "Наманганская область"
+            },
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Наманган Camera 001",
+                        "uz": "Namangan Camera 001",
+                        "ru": "Наманган Camera 001"
+                    },
+                    "link": "https://namangan1.dtsj.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Наманган Camera 002",
+                        "uz": "Namangan Camera 002",
+                        "ru": "Наманган Camera 002"
+                    },
+                    "link": "",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Наманган Camera 003",
+                        "uz": "Namangan Camera 003",
+                        "ru": "Наманган Camera 003"
+                    },
+                    "link": "",
+                    "isActive": true
+                }
+
+            ]
+        },
+        {
+            "id": 8,
+            "name": {
+                "ruz": "Самарқанд вилояти",
+                "uz": "Samarqand viloyati",
+                "ru": "Самаркандская область"
+            },
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Самарқанд Camera 001",
+                        "uz": "Samarqand Camera 001",
+                        "ru": "Самарканд Camera 001"
+                    },
+                    "link": "https://samarqand1.dtsj.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Самарқанд Camera 002",
+                        "uz": "Samarqand Camera 002",
+                        "ru": "Самарканд Camera 002"
+                    },
+                    "link": "",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Самарқанд Camera 003",
+                        "uz": "Samarqand Camera 003",
+                        "ru": "Самарканд Camera 003"
+                    },
+                    "link": "",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": {
+                "ruz": "Сурхондарё вилояти",
+                "uz": "Surxondaryo viloyati",
+                "ru": "Сурхандарьинская область"
+            },
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Сурхондарё Camera 001",
+                        "uz": "Surxondaryo Camera 001",
+                        "ru": "Сурхандарья Camera 001"
+                    },
+                    "link": "https://surxondaryo1.tmbm.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Сурхондарё Camera 002",
+                        "uz": "Surxondaryo Camera 002",
+                        "ru": "Сурхандарья Camera 002"
+                    },
+                    "link": "",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Сурхондарё Camera 003",
+                        "uz": "Surxondaryo Camera 003",
+                        "ru": "Сурхандарья Camera 003"
+                    },
+                    "link": "",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": {
+                "ruz": "Сирдарё вилояти",
+                "uz": "Sirdaryo viloyati",
+                "ru": "Сирдарьинская область"
+            },
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Сирдарё Camera 001",
+                        "uz": "Sirdaryo Camera 001",
+                        "ru": "Сирдарья Camera 001"
+                    },
+                    "link": "",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Сирдарё Camera 002",
+                        "uz": "Sirdaryo Camera 002",
+                        "ru": "Сирдарья Camera 002"
+                    },
+                    "link": "",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Сирдарё Camera 003",
+                        "uz": "Sirdaryo Camera 003",
+                        "ru": "Сирдарья Camera 003"
+                    },
+                    "link": "",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": {
+                "ruz": "Хоразм вилояти",
+                "uz": "Xorazm viloyati",
+                "ru": "Хорeзмская область"
+            },
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Хоразм Camera 001",
+                        "uz": "Xorazm Camera 001",
+                        "ru": "Хорeзм Camera 001"
+                    },
+                    "link": "https://xorazm1.tmbm.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Хоразм Camera 002",
+                        "uz": "Xorazm Camera 002",
+                        "ru": "Хорезм Camera 002"
+                    },
+                    "link": "https://xorazm2.tmbm.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Хоразм Camera 003",
+                        "uz": "Xorazm Camera 003",
+                        "ru": "Хорезм Camera 003"
+                    },
+                    "link": "https://xorazm3.tmbm.uz",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": {
+                "ruz": "Жиззах вилояти",
+                "uz": "Jizzax viloyati",
+                "ru": "Джиззахская область"
+            },
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Жиззах Camera 001",
+                        "uz": "Jizzax Camera 001",
+                        "ru": "Джиззах Camera 001"
+                    },
+                    "link": "https://jizzax1.dtsj.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Жиззах Camera 002",
+                        "uz": "Jizzax Camera 002",
+                        "ru": "Джиззах Camera 002"
+                    },
+                    "link": "https://jizzax2.dtsj.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Жиззах Camera 003",
+                        "uz": "Jizzax Camera 003",
+                        "ru": "Джиззах Camera 003"
+                    },
+                    "link": "https://jizzax3.dtsj.uz",
+                    "isActive": true
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": {
+                "ruz": "Қорақалпоғистон Республикаси",
+                "uz": "Qoraqalpog'iston Respublikasi",
+                "ru": "Республика Каракалпакистан"
+            },
+            "cameras": [
+                {
+                    "id": 1,
+                    "name": {
+                        "ruz": "Қорақалпоғистон Camera 001",
+                        "uz": "Qoraqalpog'iston Camera 001",
+                        "ru": "Каракалпакистан Camera 001"
+                    },
+                    "link": "https://qoraqalpoq1.dtsj.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 2,
+                    "name": {
+                        "ruz": "Қорақалпоғистон Camera 002",
+                        "uz": "Qoraqalpog'iston Camera 002",
+                        "ru": "Каракалпакистан Camera 002"
+                    },
+                    "link": "https://qoraqalpoq2.dtsj.uz",
+                    "isActive": true
+                },
+                {
+                    "id": 3,
+                    "name": {
+                        "ruz": "Қорақалпоғистон Camera 003",
+                        "uz": "Qoraqalpog'iston Camera 003",
+                        "ru": "Каракалпакистан Camera 003"
+                    },
+                    "link": "https://qoraqalpoq3.dtsj.uz",
+                    "isActive": true
+                }
+            ]
+        }
+
+    ]
+}

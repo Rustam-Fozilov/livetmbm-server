@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Region;
 use App\Http\Requests\StoreRegionRequest;
 use App\Http\Requests\UpdateRegionRequest;
+use Illuminate\Filesystem\FilesystemManager;
 
 class RegionController extends Controller
 {
@@ -13,7 +14,8 @@ class RegionController extends Controller
      */
     public function index()
     {
-        //
+        $file = dirname(__FILE__);
+        dd($file);
     }
 
     /**
