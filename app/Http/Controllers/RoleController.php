@@ -2,20 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Region;
-use App\Http\Requests\StoreRegionRequest;
-use App\Http\Requests\UpdateRegionRequest;
-use Illuminate\Filesystem\FilesystemManager;
-use Illuminate\Http\JsonResponse;
+use App\Http\Requests\StoreRoleRequest;
+use App\Http\Requests\UpdateRoleRequest;
+use App\Models\Role;
 
-class RegionController extends Controller
+class RoleController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index(): JsonResponse
+    public function index()
     {
-        return response()->json(Region::all());
+        //
     }
 
     /**
@@ -29,7 +27,7 @@ class RegionController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreRegionRequest $request)
+    public function store(StoreRoleRequest $request)
     {
         //
     }
@@ -37,15 +35,15 @@ class RegionController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Region $region): JsonResponse
+    public function show(Role $role)
     {
-        return response()->json($region);
+        //
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Region $region)
+    public function edit(Role $role)
     {
         //
     }
@@ -53,7 +51,7 @@ class RegionController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateRegionRequest $request, Region $region)
+    public function update(UpdateRoleRequest $request, Role $role)
     {
         //
     }
@@ -61,7 +59,7 @@ class RegionController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Region $region)
+    public function destroy(Role $role)
     {
         //
     }
