@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CameraController;
 use App\Http\Controllers\CameraToggleController;
 use App\Http\Controllers\RegionController;
+use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -31,4 +32,5 @@ Route::apiResources([
     'regions' => RegionController::class,
     'cameras' => CameraController::class,
     'cameras.toggle' => CameraToggleController::class,
+    'users' => UserController::class,
 ]);
