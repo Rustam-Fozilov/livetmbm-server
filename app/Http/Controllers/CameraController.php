@@ -11,17 +11,6 @@ use Illuminate\Http\Request;
 
 class CameraController extends Controller
 {
-    public function toggle(Request $request): JsonResponse
-    {
-        Camera::update(
-            $request->all()
-        );
-
-        return response()->json([
-            'success' => true,
-            'data' => Camera::all()
-        ]);
-    }
 
     public function index(): JsonResponse
     {
@@ -37,9 +26,17 @@ class CameraController extends Controller
     }
 
 
-    public function store(StoreCameraRequest $request)
+    public function store(StoreCameraRequest $request): JsonResponse
     {
-        //
+        $camera = Camera::create(
+            $request->all()
+        );
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Camera added successfully',
+            'data' => $camera
+        ]);
     }
 
 
@@ -57,14 +54,24 @@ class CameraController extends Controller
     }
 
 
-    public function update(UpdateCameraRequest $request, Camera $camera)
+    public function update(UpdateCameraRequest $request, Camera $camera): JsonResponse
     {
-        //
+        $camera->update(
+            $request->all()
+        );
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Camera updated successfully',
+            'data' => $camera
+        ]);
     }
 
 
-    public function destroy(Camera $camera)
+    public function destroy(Camera $camera): JsonResponse
     {
-        //
+        $camera->delete();
+
+        return response()->json('Camera deleted successfully');
     }
 }

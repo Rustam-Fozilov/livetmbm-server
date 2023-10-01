@@ -11,7 +11,7 @@ class StoreCameraRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,7 +22,9 @@ class StoreCameraRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'name' => 'required',
+            'link' => 'required|string',
+            'region_id' => 'required|integer'
         ];
     }
 }
