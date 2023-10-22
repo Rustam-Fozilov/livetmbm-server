@@ -74,4 +74,24 @@ class CameraController extends Controller
 
         return response()->json('Camera deleted successfully');
     }
+
+
+    public function toggleAll(Request $request)
+    {
+        $cameras = Camera::all();
+
+        if ($request->toggle === 'off') {
+            foreach ($cameras as $camera) {
+                $camera->update(['is_active' => false]);
+            }
+
+            return response()->json('Cameras are off');
+        } else if ($request->toggle === 'on') {
+            foreach ($cameras as $camera) {
+                $camera->update(['is_active' => true]);
+            }
+
+            return response()->json('Cameras are on');
+        }
+    }
 }

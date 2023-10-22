@@ -23,6 +23,17 @@ class CameraSeeder extends Seeder
             'is_active' => false
         ]);
 
+	Camera::create([
+            'name' => [
+                'ruz' => 'Марказ 2 Camera 001',
+                'uz' => 'Марказ 2 Camera 001',
+                'ru' => 'Марказ 2 Camera 001'
+            ],
+            'region_id' => 1,
+            'link' => 'https://toshkent4.tmbm.uz/',
+            'is_active' => false
+        ]);
+
         Camera::create([
             'name' => [
                 'ruz' => 'Марказ Camera 002',
